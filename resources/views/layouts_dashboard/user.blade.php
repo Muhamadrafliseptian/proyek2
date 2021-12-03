@@ -41,12 +41,12 @@
     <!-- summernote -->
     <link rel="stylesheet" href="plugins/summernote/summernote-bs4.min.css" />
   </head>
-  <body
-  >
-    
-        
+  <body>
+    <div class="wrapper">
 @include('partials_dashboard.navbar')
-@extends('partials_dashboard.user')
+@include('partials_dashboard.asside')
+@include('partials_dashboard.user')
+@include('partials_dashboard.footer')
   </body>
     <!-- ./wrapper -->
 

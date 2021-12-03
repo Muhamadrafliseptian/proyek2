@@ -45,7 +45,7 @@
     <div class="wrapper">
        @include('partials_dashboard.navbar')
       @include('partials_dashboard.asside')
-      @include('partials_dashboard.karyawan')
+      @include('partials_dashboard.paket_pemesanan')
       @include('partials_dashboard.footer')
     </div>
   </body>

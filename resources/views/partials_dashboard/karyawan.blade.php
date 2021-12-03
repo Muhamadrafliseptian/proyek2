@@ -1,5 +1,7 @@
 
-<div class="container float-right">
+<div class="content-wrapper">
+     <div class="content-header">
+      <div class="container">
 <div class="row">
 <div class="my-4 col-12">
 <h1 class="float-left">Data Karyawan</h1>
@@ -39,4 +41,7 @@
 @endforeach
 </tbody>
 </table>
+</div>
+</div>
+     </div>
 </div>

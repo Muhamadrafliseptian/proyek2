@@ -204,7 +204,7 @@
                 </a>
                </li>
                <li class="nav-item">
-                <a href="/pmsn" class="nav-link">
+                <a href="/paket" class="nav-link">
                   <i class="nav-icon fas fa-table"></i>
                   <p>
                     Pemesanan
