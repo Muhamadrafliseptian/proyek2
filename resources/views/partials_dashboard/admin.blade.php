@@ -6,7 +6,7 @@
 <div class="my-4 col-12">
 <h1 class="float-left">Data Admin</h1>
 
-<a class="btn btn-dark float-right mt-2" href="/admin/tambah_admin" role="button">Tambah Paket</a>
+<a class="btn btn-dark float-right mt-2" href="/admin/tambah_admin" role="button">Tambah Admin</a>
 </div>
     <div class="col-6">
 @if (session('status'))

@@ -1,4 +1,4 @@
- <nav class="navbar navbar-expand-lg mb-5 navbar-dark bg-dark">
+ <nav class="navbar navbar-expand-lg mb-5 navbar-light bg-light">
       <div class="container">
         <a class="navbar-brand" href="/">
           <img
@@ -15,8 +15,8 @@
     <div class="container">
       <img
         src="img/Mobile login-rafiki.png"
-        width="700"
-        height="700"
+        width="600"
+        height="600"
         class="rounded float-start"
         alt="..."
       />
@@ -27,6 +27,10 @@
         
   <div class="card-body">
 <label for="exampleFormControlInput1" class="form-label">Nama</label>
+  <input type="text" class="form-control" id="exampleFormControlInput1">
+<label for="exampleFormControlInput1" class="form-label">Alamat</label>
+  <input type="text" class="form-control" id="exampleFormControlInput1">
+<label for="exampleFormControlInput1" class="form-label">Nomor Telepon</label>
   <input type="text" class="form-control" id="exampleFormControlInput1">
   <label for="exampleFormControlInput1" class="form-label">Email</label>
   <input type="email" class="form-control" id="exampleFormControlInput1">

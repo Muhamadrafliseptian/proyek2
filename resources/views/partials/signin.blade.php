@@ -1,4 +1,4 @@
- <nav class="navbar navbar-expand-lg mb-5 navbar-dark bg-dark">
+ <nav class="navbar navbar-expand-lg mb-5 navbar-light bg-light">
       <div class="container">
         <a class="navbar-brand" href="/">
           <img
@@ -26,9 +26,7 @@
       <div class="card text-start" style="width: 37rem;">
         
   <div class="card-body">
-<label for="exampleFormControlInput1" class="form-label">Nama</label>
-  <input type="text" class="form-control" id="exampleFormControlInput1">
-  <label for="exampleFormControlInput1" class="form-label">Email</label>
+<label for="exampleFormControlInput1" class="form-label">Email</label>
   <input type="email" class="form-control" id="exampleFormControlInput1">
  <div class="mb-3">
   <label for="exampleFormControlInput1" class="form-label">Password</label>
@@ -44,3 +42,4 @@
 </div>
 
     </div>
+    

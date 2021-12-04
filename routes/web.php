@@ -51,7 +51,8 @@ Route::get('/admin/destroy/{id}', 'App\Http\Controllers\admin@destroy');
 //user
 Route::get('/user', 'App\Http\Controllers\DaftarController@index');
 
-
+Route::get('/signup', 'App\Http\Controllers\signup@tambah');
+Route::get('/signup/store', 'App\Http\Controllers\signup@store');
 //karyawan
 Route::get('/karyawan', 'App\Http\Controllers\karyawan@index');
 Route::get('/karyawan/tambah_karyawan', function () {

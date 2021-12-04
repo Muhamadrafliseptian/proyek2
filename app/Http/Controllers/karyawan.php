@@ -17,7 +17,7 @@ class karyawan extends Controller
 // mengambil data dari table students
 $karyawans = DB::table('karyawan') -> get();
 // mengirim data students ke view daftar
-return view('karyawan', ['karyawan' => $karyawans]);
+return view('extends_admin.karyawan', ['karyawan' => $karyawans]);
 
 }
 

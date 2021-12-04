@@ -17,7 +17,7 @@ class admin extends Controller
 // mengambil data dari table students
 $admins = DB::table('admin') -> get();
 // mengirim data students ke view daftar
-return view('admin', ['admin' => $admins]);
+return view('extends_admin.admin', ['admin' => $admins]);
 
 }
 

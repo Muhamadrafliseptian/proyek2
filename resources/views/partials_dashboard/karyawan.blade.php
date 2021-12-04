@@ -6,7 +6,7 @@
 <div class="my-4 col-12">
 <h1 class="float-left">Data Karyawan</h1>
 
-<a class="btn btn-dark float-right mt-2" href="/karyawan/tambah_karyawan" role="button">Tambah Paket</a>
+<a class="btn btn-dark float-right mt-2" href="/karyawan/tambah_karyawan" role="button">Tambah Karyawan</a>
 </div>
 <div class="col-6">
 </button>

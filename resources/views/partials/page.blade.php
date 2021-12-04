@@ -1,89 +1,126 @@
-<div class="container">
-      <div class="alert alert-success text-center" role="alert">
-  Selamat Datang di Website RafKmdShoes
-</div>
-      <br />
-      <br />
-      <img
-        src="img/logo.png" height="300" width="300"
-        class="rounded float-end"
-        alt="..."
-      />
-      <h1 class="text-start"><b>Membuat Sepatu Anda</b></h1>
-      <h1 class="text-start"><b>Menjadi Lebih</b></h1>
-      <h1 class="text-start" style="color: #25A0F9"><b>Bersih</b></h1>
+<div class="page-banner home-banner">
+        <div class="container h-100">
+          <div class="row align-items-center h-100">
+            <div class="col-lg-6 py-3 wow fadeInUp">
+              <h1 class="mb-4">Make Your Shoes Clean</h1>
+              <p class="text-lg mb-5">     
+an application that makes your life more efficient and practical
+              </p>
 
-      <p class="text-start" style="color: rgba(71, 71, 71, 1)">
-        Sebuah Aplikasi Yang Membuat Hidup Anda <br> Menjadi 
-Lebih Praktis dan Efisien
-      </p>
-       <a href="/services" class="btn btn-primary white " >Get Started</a>
-      <div class="image"></div>
-      <br>
-      <br><br>
-      <br>
-      <h1 class="text-start" id="#visi"><b>Fitur Aplikasi</b>
-        
-      </h1>
-       <p class="text-start">1. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        <br>2. Non nemo sit voluptate nam ipsam, repellendus 
-        <br>3. beatae incidunt cumque! Aut odio non quos. Unde ipsam </p>
-    </div>
-    </div>
-    <br>
-    <br>
-    <br>
-    <div class="container">
-        <h1 class="text-center" style="color: black;">Keunggulan Toko</h1>
-        <br>
-        <div class="row">
-  <div class="col-sm-4">
-    <div class="card" style="border-radius: 15px;">
-        <img src="img/bersih.png" width="80" height="80" alt="">
-      <div class="card-body">
-        <h5 class="card-title">Bersih</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary white">Selengkapnya</a>
+              <a href="#footer" class="btn btn-outline border text-secondary"
+                >More Info</a
+              >
+              <a href="/signup" class="btn btn-primary btn-split ml-2" style="background-color: #007bff;"
+                >Get Started
+                <div class="fab"><span class="mai-play"></span></div
+              ></a>
+            </div>
+            <div class="col-lg-6 py-3 wow zoomIn">
+              <div class="img-place">
+                <img src="../assets/img/In no time-rafiki.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-  <div class="col-sm-4">
-    <div class="card" style="border-radius: 15px;">
-        <img src="img/fast.png" width="80" height="80" alt="">
-      <div class="card-body">
-        <h5 class="card-title">Pencucian Cepat</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary white">Selengkapnya</a>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-4">
-    <div class="card" style="border-radius: 15px;">
-        <img src="img/uang.png"  width="80" height="80" alt="">
-      <div class="card-body">
-        <h5 class="card-title" >Murah</h5>
-        <p class="card-text" >With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary white">Selengkapnya</a>
-      </div>
-    </div>
-  </div>
-</div>
+    </header>
 
+    <main>
+      <!-- .page-section -->
 
-    </div>
-    <br>
-    <br>
-    <div class="container" >
-        <div class="card text-center">
-  <div class="card-header text-light bg-dark">
-   About Us
-  </div>
-  <div class="card-body text-light bg-dark" href="#about">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quia labore eum ad, <br> facilis quidem maiores optio quas provident enim dolor vel itaque harum nobis cum repudiandae quasi quam facere.</p>
-  </div>
-  <div class="card-footer bg-dark  text-muted">
-    copyright 2021
-  </div>
-</div>
-    </div>
+      <div class="page-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 py-3 wow zoomIn">
+              <div class="img-place text-center">
+                <img src="../assets/img/Post-rafiki.png" alt="" />
+              </div>
+            </div>
+            <div class="col-lg-6 py-3 wow fadeInRight">
+              <h2 class="title-section" id="about">
+                What About <span class="marked">Me</span>?
+              </h2>
+              <div class="divider"></div>
+              <p>
+RafKmdShoes is a shoe washing service provider since 2017. This shop is located in Pinang, Tangerang City. 
+This shop offers a variety of shoe washing services at affordable prices and fast service.
+              </p>
+              <div class="img-place mb-3">
+                <img src="../assets/img/testi_image.png" alt="" />
+              </div>
+              <a href="#" class="btn btn-primary">More Details</a>
+              <a href="#" class="btn btn-outline border ml-2"
+                >Success Stories</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- .container -->
+      </div>
+      <!-- .page-section -->
+
+      <!-- .page-section -->
+
+      <div class="page-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 py-3 wow fadeInLeft">
+              <h2 class="title-section">
+                We're <span class="marked">ready to</span> Serve you with best
+              </h2>
+              <div class="divider"></div>
+              <p class="mb-5">
+                We provide marketing services to startups & small business to
+                looking for partner for their digital media, design & dev lead
+                generation & communication.
+              </p>
+              <a href="#" class="btn btn-primary">See Pricing</a>
+            </div>
+            <div class="col-lg-6 py-3 wow zoomIn">
+              <div class="img-place text-center">
+                <img src="../assets/img/Team page-rafiki.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- .container -->
+      </div>
+      <!-- .page-section -->
+
+      <div class="page-section">
+        <div class="container">
+          <div class="text-center wow fadeInUp">
+            <div class="subhead">Why Choose Us</div>
+            <h2 class="title-section">
+              Your <span class="marked">Comfort</span> is Our Priority
+            </h2>
+            <div class="divider mx-auto"></div>
+          </div>
+
+          <div class="row mt-5 text-center">
+            <div class="col-lg-4 py-3 wow fadeInUp">
+              <div class="display-3"><span class="mai-shapes"></span></div>
+              <h5>Fast Service</h5>
+              <p>
+                 just one day your shoes will be clean
+              </p>
+            </div>
+            <div class="col-lg-4 py-3 wow fadeInUp">
+              <div class="display-3"><span class="mai-shapes"></span></div>
+              <h5>Friendly Prices</h5>
+              <p>
+               no need to spend a lot of money to get the best service
+              </p>
+            </div>
+            <div class="col-lg-4 py-3 wow fadeInUp">
+              <div class="display-3"><span class="mai-shapes"></span></div>
+              <h5>Eficiency</h5>
+              <p>
+                
+              just order and wait at home. our courier will coming
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- .container -->
+    </main>

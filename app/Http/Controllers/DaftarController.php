@@ -17,6 +17,6 @@ class DaftarController extends Controller
 // mengambil data dari table students
 $users = DB::table('user') -> get();
 // mengirim data students ke view daftar
-return view('user', ['user' => $users]);
+return view('extends_admin.user', ['user' => $users]);
 }
 }

@@ -1,83 +1,42 @@
-<nav class="navbar navbar-expand-lg mb-5 navbar-dark bg-dark">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img
-            src="img/logo.png"
-            alt=""
-            width="30"
-            height="30"
-            class="d-inline-block align-text-top"
-          />
-       RafKmdShoes
-        </a>
+<div class="back-to-top"></div>
 
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link me-2  aria-current="page" href="/"
-              >Home</a
-            >
-          </li>
-           <li class="nav-item">
-            <a class="nav-link me-2  aria-current="page" href="/services"
-              >Services</a
-            >
-          </li>
- <li class="nav-item">
-            <a class="nav-link me-2  aria-current="page" href="#about"
-              >About Us</a
-            >
-          </li>
-          
-          <li class="nav-item">
-                    <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDarkDropdown"
-          aria-controls="navbarNavDarkDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="/"
-                id="navbarDarkDropdownMenuLink"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Status
-              </a>
-              
-              <ul
-                class="dropdown-menu dropdown-menu-dark"
-                aria-labelledby="navbarDarkDropdownMenuLink"
-              >
-                <li><a class="dropdown-item" href="#">Teknik Informatika</a></li>
-                <li><a class="dropdown-item" href="#">Teknik Mesin</a></li>
-                <li>
-                  <a class="dropdown-item" href="#">Teknik Pendingin dan Tata Udara</a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-          
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light navbar-float">
+        <div class="container">
+          <a href="index.html" class="navbar-brand"
+            >RafKmd<span class="text-primary" style="color: #25A0F9;">Shoes</span></a
+          >
+
+          <button
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#navbarContent"
+            aria-controls="navbarContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="navbar-collapse collapse" id="navbarContent">
+            <ul class="navbar-nav ml-lg-4 pt-3 pt-lg-0">
+              <li class="nav-item active">
+                <a href="/" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="/services" class="nav-link">Services</a>
+              </li>
+              <li class="nav-item">
+                <a href="blog.html" class="nav-link">Status</a>
+              </li>
+            </ul>
+
+            <div class="ml-auto">
+              <a href="#" class="btn btn-outline rounded-pill">Sign Up</a>
+            </div>
+          </div>
         </div>
-              
-          </li>
-        </ul>
-  
-            
-         <form class="d-flex">
- <a href="/signin" class="btn btn-outline-secondary me-2 " >Sign In</a>
-  <a href="/signup" class="btn btn-primary " >Sign Up</a>
-      </form>
-      
-      </div>
-      
-    </nav>
+      </nav>
