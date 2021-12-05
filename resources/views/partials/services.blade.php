@@ -19,14 +19,14 @@
                 </div>
                 <div class="body">
                   <div class="post-title">
-                    <a href="blog-single.html">What is Packet 1?</a>
+                    <a href="/pesan">What is Packet 1?</a>
                   </div>
                   <div class="post-excerpt">
                     Package 1 is for washing white shoes, but only washing the outside.
                   </div>
                 </div>
                 <div class="footer">
-                  <a href="blog-single.html"
+                  <a href="/pesan"
                     >Order Now <span class="mai-chevron-forward text-sm"></span
                   ></a>
                 </div>
@@ -45,14 +45,14 @@
                 </div>
                 <div class="body">
                   <div class="post-title">
-                    <a href="blog-single.html">What is Package 2?</a>
+                    <a href="/pesan">What is Package 2?</a>
                   </div>
                   <div class="post-excerpt">
                     Package 2 is for washing mix shoes colors, but only washing the outside.
                   </div>
                 </div>
                 <div class="footer">
-                  <a href="blog-single.html"
+                  <a href="/pesan"
                     >Order Now <span class="mai-chevron-forward text-sm"></span
                   ></a>
                 </div>
@@ -71,14 +71,14 @@
                 </div>
                 <div class="body">
                   <div class="post-title">
-                    <a href="blog-single.html">What is Package 3?</a>
+                    <a href="/pesan">What is Package 3?</a>
                   </div>
                   <div class="post-excerpt">
                       Package 2 is for washing black shoes, but only washing the outside. 
                   </div>
                 </div>
                 <div class="footer">
-                  <a href="blog-single.html"
+                  <a href="/pesan"
                     >Order Now <span class="mai-chevron-forward text-sm"></span
                   ></a>
                 </div>
@@ -97,14 +97,14 @@
                 </div>
                 <div class="body">
                   <div class="post-title">
-                    <a href="blog-single.html">What is Package 4?</a>
+                    <a href="/pesan">What is Package 4?</a>
                   </div>
                   <div class="post-excerpt">
                      Package 4 is for washing white shoes and washing outside and inside the shoes.
                   </div>
                 </div>
                 <div class="footer">
-                  <a href="blog-single.html"
+                  <a href="/pesan"
                     >Order Now <span class="mai-chevron-forward text-sm"></span
                   ></a>
                 </div>
@@ -123,14 +123,14 @@
                 </div>
                 <div class="body">
                   <div class="post-title">
-                    <a href="blog-single.html">What is Package 5?</a>
+                    <a href="/pesan">What is Package 5?</a>
                   </div>
                   <div class="post-excerpt">
                     Package 5 is for washing mix shoes colors and washing outside and inside the shoes.
                   </div>
                 </div>
                 <div class="footer">
-                  <a href="blog-single.html"
+                  <a href="/pesan"
                     >Order Now <span class="mai-chevron-forward text-sm"></span
                   ></a>
                 </div>
@@ -149,14 +149,14 @@
                 </div>
                 <div class="body">
                   <div class="post-title">
-                    <a href="blog-single.html">What is Package 6?</a>
+                    <a href="/pesan">What is Package 6?</a>
                   </div>
                   <div class="post-excerpt">
                     Package 6 is for washing black shoes and washing outside and inside the shoes.
                   </div>
                 </div>
                 <div class="footer">
-                  <a href="blog-single.html"
+                  <a href="/pesan"
                     >Order Now <span class="mai-chevron-forward text-sm"></span
                   ></a>
                 </div>

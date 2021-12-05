@@ -15,24 +15,41 @@ use Illuminate\Support\Facades\Route;
 //landing page
 Route::get('/', function () {
     return view('extends_user.home');
-
 });
 Route::get('/services', function () {
     return view('extends_user.services');
-
 });
+
+//signup
 Route::get('/signup', function () {
     return view('extends_user.signup');
-
 });
+
+//signin
 Route::get('/signin', function () {
     return view('extends_user.signin');
 
 });
+
+//pemesanan user
 Route::get('/pesan', function () {
     return view('extends_user.pesan');
-
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //dashboard utama
 Route::get('/dshhome', function () {
@@ -50,9 +67,6 @@ Route::get('/admin/destroy/{id}', 'App\Http\Controllers\admin@destroy');
 
 //user
 Route::get('/user', 'App\Http\Controllers\DaftarController@index');
-
-Route::get('/signup', 'App\Http\Controllers\signup@tambah');
-Route::get('/signup/store', 'App\Http\Controllers\signup@store');
 //karyawan
 Route::get('/karyawan', 'App\Http\Controllers\karyawan@index');
 Route::get('/karyawan/tambah_karyawan', function () {

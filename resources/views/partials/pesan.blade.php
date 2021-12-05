@@ -1,57 +1,29 @@
- <nav class="navbar navbar-expand-lg mb-5 navbar-dark bg-dark">
-      <div class="container">
-        <a class="navbar-brand" href="/">
-          <img
-            src="img/logo.png"
-            alt=""
-            width="30"
-            height="30"
-            class="d-inline-block align-text-top"
-          />
-       RafKmdShoes
-        </a>
-        
-       </nav>
-    <div class="container">
-        <div class="alert alert-primary text-center" role="alert">
- Halaman Pemesanan
-</div>
-      <br>
-      <div class="card text-start" style="width: 37rem;">
-        
-  <div class="card-body">
-<label for="exampleFormControlInput1" class="form-label">Nama</label>
-  <input type="text" class="form-control" id="exampleFormControlInput1">
-  <label for="exampleFormControlInput1" class="form-label">Alamat</label>
-  <input type="text" class="form-control" id="exampleFormControlInput1">
- <div class="mb-3">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="container">
+
+<div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+   
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Package 1</h5>
+       <form>
+  <div class="mb-3">
+    <input type="text" class="form-control" placeholder="address" id="exampleInputPassword1">
+  </div>
   
-</div>
+  <div class="mb-3">
+    <input type="number" class="form-control" placeholder="jumlah barang" id="exampleInputPassword1">
+  </div>
+  <button type="submit" class="btn btn-primary">Check Out</button>
+</form>
+      </div>
+    </div>
   </div>
 </div>
-
-    </div>
-
-    <br>
-     <div class="container">
-      <div class="card text-start" style="width: 37rem;">
-        
-  <div class="card-body">
-  <label for="exampleFormControlInput1" class="form-label">Jenis Paket</label>
-  <input type="number" class="form-control" id="exampleFormControlInput1">
-  <label for="exampleFormControlInput1" class="form-label">Metode Pembayaran</label>
-  <input type="text" class="form-control" id="exampleFormControlInput1">
-  
-  <label for="exampleFormControlInput1" class="form-label">Jumlah</label>
-  <input type="number" class="form-control" id="exampleFormControlInput1">
-  
-  <p><b>Total Harga:</b></p>
-    <p>20.000</p>
- <div class="mb-3">
-  
-</div>
- <a href="/" class="btn btn-primary white " >Pesan</a>
-  </div>
-</div>
-
-    </div>

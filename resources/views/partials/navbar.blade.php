@@ -1,9 +1,8 @@
 <div class="back-to-top"></div>
-
-    <header>
+ <header>
       <nav class="navbar navbar-expand-lg navbar-light navbar-float">
         <div class="container">
-          <a href="index.html" class="navbar-brand"
+          <a href="/" class="navbar-brand"
             >RafKmd<span class="text-primary" style="color: #25A0F9;">Shoes</span></a
           >
 
@@ -35,7 +34,7 @@
             </ul>
 
             <div class="ml-auto">
-              <a href="#" class="btn btn-outline rounded-pill">Sign Up</a>
+              <a href="/signup" class="btn btn-outline rounded-pill"><i class="fas fa-sign-in-alt"></i> Sign Up</a>
             </div>
           </div>
         </div>

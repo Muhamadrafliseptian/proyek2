@@ -11,9 +11,9 @@ class signup extends Controller
     public function index()
 {
 // mengambil data dari table students
-$admins = DB::table('admin') -> get();
+$users = DB::table('user') -> get();
 // mengirim data students ke view daftar
-return view('extends_admin.admin', ['admin' => $admins]);
+return view('extends_user.user', ['user' => $users]);
 
 }
 
@@ -24,7 +24,7 @@ return view('extends_admin.admin', ['admin' => $admins]);
  public function tambah() 
 {
     // memanggil view create
-    return view('/partials_dashboard/tambah_admin');
+    return view('/partials/signup');
 }
     /**
      * Store a newly created resource in storage.
@@ -46,12 +46,12 @@ $this->validate($request, [
 ]);
 DB::table('user')->insert([
 'nama' => $request->nama,
-'alamat' => $request->email,
-'telepon' => $request->telepon,
 'email' => $request->email,
+'alamat' => $request->alamat,
+'telepon' => $request->telepon,
 'password' => $request->password,
 'created_at' => $request->created_at
 ]);
-return redirect('/signup')->with('status', 'Data Paket Berhasil Ditambahkan');
+return redirect('/signup');
 }
 }
